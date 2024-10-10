@@ -16,7 +16,7 @@ class ModelBase(models.Model):
         default=True
     )
 
-    dt_created = models.DateTimeField(
+    created = models.DateTimeField(
         db_column='dt_created',
         auto_now_add=True,
         null=True

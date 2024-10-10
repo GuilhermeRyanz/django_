@@ -5,4 +5,4 @@ class ClientSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = models.Client
-        fields = 'id','name', 'age', 'rg', 'cpf', 'dt_modified', 'cs_active'
+        fields = ['id', 'name', 'age', 'rg', 'cpf', 'dt_modified', 'cs_active']
